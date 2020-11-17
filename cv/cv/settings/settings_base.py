@@ -13,12 +13,14 @@ from .secrets import *
 from pathlib import Path
 
 
-ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = [<put your hosts config in the settings_segment.py file>]
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
+# SECURITY WARNING: keep the secret key used in production secret!
+# SECRET_KEY = '<put your secret in the secrets.py file>'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -72,7 +74,7 @@ WSGI_APPLICATION = 'cv.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-DATABASES = {}
+# DATABASES = {<put your databases config in the settings_segment.py file>}
 
 
 # Password validation

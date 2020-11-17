@@ -3,6 +3,7 @@ venv/
 db.sqlite3
 *.py[cod]
 __pycache__/
+.pytest_cache/
 secrets.py
 
 #Vue
